@@ -4,10 +4,14 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Faran", "Igani", , "figanit@calpoly.edu", role = c("aut", "cre"))
 Description: This package creates a function to help plot common strings and expressions in R.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 8.0.0
 URL: https://github.com/FaranIgani/regexcite
 BugReports: https://github.com/FaranIgani/regexcite/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    stringr
